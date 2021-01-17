@@ -6,7 +6,7 @@
     "start": "nodemon --inspect ./bin/www",
     "seed": "node seed/seed_db.js",
     "remote": "NODE_ENV=production DEBUG=whatever-store-api:* nodemon --inspect ./bin/www",
-    "build": "node build --output public"
+    "build": "node build"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",

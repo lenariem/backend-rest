@@ -1,0 +1,231 @@
+{
+  "menu": [
+    {
+      "title": "Buffalo Grill",
+      "price": 23,
+      "url": "https://cdn.pixabay.com/photo/2019/07/23/01/09/the-stake-4356381_1280.jpg",
+      "category": "meat",
+      "descr": "Juicy beef steak with rosemary and grilled vegetables",
+      "allerg": "wheat",
+      "id": 1
+    },
+    {
+      "title": "Pizza 'Veggie'",
+      "price": 10,
+      "url": "https://image.freepik.com/free-photo/pizza_144627-39499.jpg",
+      "category": "pizza",
+      "descr": "Vegetarian pizza with cheese, tomatoes and basil",
+      "allerg": "wheat",
+      "id": 2
+    },
+    {
+      "title": "Pizza 'Salami'",
+      "price": 12,
+      "url": "https://image.freepik.com/free-photo/top-view-pepperoni-pizza-sliced-into-six-slices_141793-2157.jpg",
+      "category": "pizza",
+      "descr": "Salami pizza is an incredibly tasty Italian dish that has already firmly entered the cuisines of other countries of the world. The food surprises with interesting flavor combinations, amazing aroma, and also gives a feeling of satiety for a long time",
+      "allerg": "wheat",
+      "id": 3
+    },
+    {
+      "title": "Greece salad",
+      "price": 8,
+      "url": "https://image.freepik.com/free-photo/greece-salad-sliced-olives-red-wine-inside-white-plate_140725-14599.jpg",
+      "category": "salads",
+      "descr": "Greek salad with feta cheese is a very light, dietary vegetable dish that is served in every tavern in Greece. If the nearest Greek tavern is far away, you can make an order in our restaurant",
+      "allerg": "milk",
+      "id": 4
+    },
+    {
+      "title": "File Steak",
+      "price": 25,
+      "url": "https://image.freepik.com/free-photo/juicy-steak-medium-rare-beef-with-spices-grilled-vegetables_2829-18672.jpg",
+      "category": "meat",
+      "descr": "The steak is perfect for some romantic candlelight dinner or for fun gatherings in a noisy company. Best beef meat with tomatoes and mushrooms",
+      "allerg": "egg",
+      "id": 5
+    },
+    {
+      "title": "Fried Chicken",
+      "price": 15,
+      "url": "https://image.freepik.com/free-photo/crispy-fried-chicken-plate-with-salad-carrot_1150-20212.jpg",
+      "category": "meat",
+      "descr": "Breaded chicken with carrot strips and lettuce leaves is a great option for lunch or dinner",
+      "allerg": "wheat",
+      "id": 6
+    },
+    {
+      "title": "Grilled Ribs",
+      "price": 23,
+      "url": "https://image.freepik.com/free-photo/meat-ribs-with-vegetables_140725-44.jpg",
+      "category": "meat",
+      "descr": "Grilled ribs with potatoes are a simple but delicious dish",
+      "allerg": "egg",
+      "id": 7
+    },
+    {
+      "title": "Salmon Salad",
+      "price": 12,
+      "url": "https://image.freepik.com/free-photo/ketogenic-diet-breakfast-salt-salmon-salad-with-greens-cucumbers-eggs-avocado-keto-paleo-lunch_2829-20254.jpg",
+      "category": "salads",
+      "descr": "The beneficial properties of salmon fillets lie in the huge reserves of substances important for human life, and in such a form that is most suitable for our physiological processes. The finest olive oil, eggs, avocado and vegetables are great choices for salad lovers",
+      "allerg": "egg",
+      "id": 8
+    },
+    {
+      "title": "Pizza 'Diavolo'",
+      "price": 10,
+      "url": "https://image.freepik.com/free-photo/pizza-pepperoni-table_140725-5396.jpg",
+      "category": "pizza",
+      "descr": "Spicy pizza with paprika, salami and pepperoni",
+      "allerg": "wheat",
+      "id": 9
+    },
+    {
+      "title": "Wiener Schnitzel",
+      "price": 20,
+      "url": "https://cdn.pixabay.com/photo/2014/05/28/12/20/wiener-schnitzel-356436__340.jpg",
+      "category": "meat",
+      "descr": "Vienna schnitzel is one of the most famous dishes of Viennese cuisine. It is a large, very thin veal schnitzel breaded with flour and bread crumbs and French fries as a side dish",
+      "allerg": "wheat",
+      "id": 10
+    },
+    {
+      "title": "Beef Burger",
+      "price": 18,
+      "url": "https://cdn.pixabay.com/photo/2019/01/29/18/05/burger-3962996__340.jpg",
+      "category": "meat",
+      "descr": "The main element of any burger is the cutlet. It is the meat used and the cooking method that will determine how the dish tastes. Our burger recipe uses minced meat in combination with mustard and tomato juice. This will make the cutlet a little spicier, add sour taste accents, and add juiciness",
+      "allerg": "wheat",
+      "id": 11
+    },
+    {
+      "title": "Cesar salad",
+      "price": 12,
+      "url": "https://image.freepik.com/free-photo/summer-chicken-caesar-salad-picnic-table_1147-67.jpg?1",
+      "category": "salads",
+      "descr": "It is a green salad of romaine lettuce and croutons dressed with lemon juice (or lime juice), olive oil, egg, Worcestershire sauce, anchovies, garlic, Dijon mustard, Parmesan cheese, and black pepper.",
+      "allerg": "milk",
+      "id": 12
+    }
+  ],
+  "orders": [
+    {
+      "id": "BkqfigA",
+      "order": [
+        {
+          "id": 2,
+          "title": "Pizza 'Veggie'",
+          "qtty": 1
+        },
+        {
+          "id": 3,
+          "title": "Pizza 'Salami'",
+          "qtty": 2
+        }
+      ],
+      "totalPrice": 34,
+      "date": "21. Dezember 2020, 17:09:45"
+    },
+    {
+      "id": "bA3sY9k",
+      "order": [
+        {
+          "id": 2,
+          "title": "Pizza 'Veggie'",
+          "qtty": 1
+        },
+        {
+          "id": 3,
+          "title": "Pizza 'Salami'",
+          "qtty": 1
+        }
+      ],
+      "totalPrice": 22,
+      "date": "05. Januar 2021, 11:26:53"
+    },
+    {
+      "id": "GjfIelF",
+      "order": [
+        {
+          "id": 2,
+          "title": "Pizza 'Veggie'",
+          "qtty": 1
+        },
+        {
+          "id": 1,
+          "title": "Buffalo Grill",
+          "qtty": 1
+        }
+      ],
+      "totalPrice": 33,
+      "date": "07. Januar 2021, 11:03:22"
+    },
+    {
+      "id": "DTQITb0",
+      "order": [
+        {
+          "id": 8,
+          "title": "Salmon Salad",
+          "qtty": 1
+        },
+        {
+          "id": 4,
+          "title": "Greece salad",
+          "qtty": 1
+        }
+      ],
+      "totalPrice": 20,
+      "date": "14. Januar 2021, 19:28:16"
+    },
+    {
+      "id": "PwUWNMj",
+      "order": [
+        {
+          "id": 12,
+          "title": "Cesar salad",
+          "qtty": 1
+        },
+        {
+          "id": 5,
+          "title": "File Steak",
+          "qtty": 1
+        },
+        {
+          "id": 8,
+          "title": "Salmon Salad",
+          "qtty": 1
+        },
+        {
+          "id": 7,
+          "title": "Grilled Ribs",
+          "qtty": 1
+        }
+      ],
+      "totalPrice": 72,
+      "date": "15. Januar 2021, 18:07:26"
+    },
+    {
+      "id": "pHujPRN",
+      "order": [
+        {
+          "id": 2,
+          "title": "Pizza 'Veggie'",
+          "qtty": 1
+        },
+        {
+          "id": 3,
+          "title": "Pizza 'Salami'",
+          "qtty": 1
+        },
+        {
+          "id": 5,
+          "title": "File Steak",
+          "qtty": 1
+        }
+      ],
+      "totalPrice": 47,
+      "date": "15. Januar 2021, 18:09:29"
+    }
+  ]
+}

@@ -14,7 +14,7 @@ const devConfig = {
 };
 
 const prodConfig = {
-  db: 'mongodb+srv://new_user1:pamTARs84L@cluster0.uiclr.mongodb.net/restaurantDB?retryWrites=true&w=majority',
+  db: 'mongodb+srv://new_user1:pamTARs84L@cluster0.uiclr.mongodb.net/restaurantDB_dev?retryWrites=true&w=majority',
   jwt_key: 'changeMeToYourSecretKey',
   ver_key: 'changeMeToYourSecretKeyPlease',
   email: 'wasabisfbw28@gmail.com',

@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-   
+    "start": "node app.js",
     "seed": "node seed/seed_db.js",
     "remote": "NODE_ENV=production DEBUG=whatever-store-api:* nodemon --inspect ./bin/www"
 

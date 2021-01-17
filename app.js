@@ -43,7 +43,7 @@ app.use(express.json()); // parser for JSON data => req.body
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 
-let frontendOrigin = 'http://127.0.0.1:3000'
+let frontendOrigin = 'https://frontend-rest-react.herokuapp.com/'
 app.use(
   cors({
     origin: [frontendOrigin], // HERE YOU CAN WHITELIST THE DOMAIN OF YOUR CLIENT

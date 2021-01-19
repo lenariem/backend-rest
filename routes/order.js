@@ -13,7 +13,6 @@ router.get('/', async function(req, res, next) {
 
 router.post('/', async function(req, res, next) {
   try {
-    
     const body = req.body;
     const order = new Order(body);
     console.log(order)

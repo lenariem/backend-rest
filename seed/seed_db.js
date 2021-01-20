@@ -6,6 +6,8 @@ const Order = require('../models/Order');
 const env = require('../config/config');
 const fs = require('fs');
 
+console.log({env});
+
 (async function () {
   /** CONNECT TO MONGO */
   mongoose.connect(env.db, {

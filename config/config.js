@@ -13,7 +13,9 @@ const config = {
   jwt_key: process.env.jwt_key,
   ver_key: process.env.var_key,
   email: process.env.email,
-  email_pass: process.env.email_pass
+  email_pass: process.env.email_pass,
+  frontend_url=process.env.frontend_url
 };
 
 module.exports = config
+

@@ -1,5 +1,7 @@
 const dotenv = require('dotenv');
-dotenv.config();
+const path = require('path');
+dotenv.config({ path: path.join( __dirname, ".env") })
+
 const { env } = process;
 
 /* const config = {
@@ -14,8 +16,10 @@ const config = {
   ver_key: process.env.var_key,
   email: process.env.email,
   email_pass: process.env.email_pass,
-  frontend_url=process.env.frontend_url
+  frontend_url: process.env.frontend_url
 };
+
+console.log("config" , config)
 
 module.exports = config
 

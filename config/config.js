@@ -1,28 +1,19 @@
+const dotenv = require('dotenv');
+dotenv.config();
 const { env } = process;
 
-const config = {
+/* const config = {
   env: env.NODE_ENV || 'development',
-};
+}; */
 
-const devConfig = {
+const config = {
   //replace with own mongo with Atlas
-  db: 'mongodb+srv://new_user1:pamTARs84L@cluster0.uiclr.mongodb.net/restaurantDB_dev?retryWrites=true&w=majority',
-  jwt_key: 'changeMeToYourSecretKey',
-  ver_key: 'changeMeToYourSecretKeyPlease',
-  email: 'wasabisfbw28@gmail.com',
-  email_pass: 'rYn92q*Z%VA4q3Rw',
+  db: process.env.db,
+  env: env.NODE_ENV || 'development',
+  jwt_key: process.env.jwt_key,
+  ver_key: process.env.var_key,
+  email: process.env.email,
+  email_pass: process.env.email_pass
 };
 
-const prodConfig = {
-  db: 'mongodb+srv://new_user1:pamTARs84L@cluster0.uiclr.mongodb.net/restaurantDB_dev?retryWrites=true&w=majority',
-  jwt_key: 'changeMeToYourSecretKey',
-  ver_key: 'changeMeToYourSecretKeyPlease',
-  email: 'wasabisfbw28@gmail.com',
-  email_pass: 'rYn92q*Z%VA4q3Rw',
-};
-
-/* db: mongodb+srv://new_user1:pamTARs84L@cluster0.uiclr.mongodb.net/restaurantDB?retryWrites=true&w=majority */
-
-const currentConfig =
-  config.env === 'production' ? prodConfig : devConfig;
-module.exports = Object.assign({}, config, currentConfig);
+module.exports = config

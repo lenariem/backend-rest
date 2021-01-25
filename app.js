@@ -1,7 +1,6 @@
 /** EXTERNAL DEPENDENCIES */
 const express = require('express');
 const path = require('path');
-const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 const mongoose = require('mongoose');
 
@@ -40,7 +39,7 @@ mongoose.connection.on('open', () => {
 /** REQUEST PARSERS */
 app.use(express.json()); // parser for JSON data => req.body
 app.use(express.urlencoded({ extended: false }));
-app.use(cookieParser());
+
 
 /* let frontendOrigin = 'https://frontend-rest-react.herokuapp.com/'
 app.use(

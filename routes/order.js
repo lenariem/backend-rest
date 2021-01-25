@@ -2,8 +2,6 @@ const express = require('express');
 const Order = require('../models/Order');
 const router = express.Router();
 
-const {addOrder} = require('../controllers/ordersController');
-
 router.get('/', async function(req, res, next) {
   const orderList = await Order.find();
   res.json(orderList);

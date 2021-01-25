@@ -1,12 +1,8 @@
 const mongoose = require('mongoose');
-const faker = require('faker');
-const User = require('../models/User');
 const MenuItem = require('../models/MenuItem');
 const Order = require('../models/Order');
 const env = require('../config/config');
 const fs = require('fs');
-
-console.log({env});
 
 (async function () {
   /** CONNECT TO MONGO */

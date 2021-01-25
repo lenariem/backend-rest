@@ -7,7 +7,6 @@ const mongoose = require('mongoose');
 
 /** ROUTERS */
 const indexRouter = require('./routes/index');
-const usersRouter = require('./routes/users');
 const menuRouter = require('./routes/menu');
 const orderRouter = require('./routes/order');
 
@@ -61,12 +60,10 @@ app.use(function(req, res, next) {
 
 /** STATIC FILES */
 app.use(express.static(path.join(__dirname, 'public'))); // => current_folder / public
-app.use('/avatars', express.static(path.join(__dirname, 'uploads')))
 
 
 /** ROUTES */
 app.use('/', indexRouter);
-app.use('/users', usersRouter);
 app.use('/menu', menuRouter)
 app.use('/orders', orderRouter)
 
